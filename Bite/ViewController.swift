@@ -7,19 +7,17 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
+//@IBAction func play(sender: AnyObject) {
+//    myUtterance = AVSpeechUtterance(string: "Test")
+//    myUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+//    myUtterance.rate = 0.5
+//    synth.speakUtterance(myUtterance)
+//}
+//
+//let synth = AVSpeechSynthesizer()
+//var myUtterance = AVSpeechUtterance(string: "")

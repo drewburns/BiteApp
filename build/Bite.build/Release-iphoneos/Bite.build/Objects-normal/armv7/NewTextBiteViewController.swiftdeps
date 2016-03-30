@@ -1,0 +1,621 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NewTextBiteViewController"
+provides-nominal:
+- "C4Bite25NewTextBiteViewController"
+provides-member:
+- ["C4Bite25NewTextBiteViewController", ""]
+provides-dynamic-lookup:
+- "synth"
+- "myUtterance"
+- "textView"
+- "didReceiveMemoryWarning"
+- "save"
+- "viewDidLoad"
+- "nameField"
+- "play"
+- "saveTextBite"
+depends-top-level:
+- "UIViewController"
+- "AVSpeechSynthesizer"
+- !private "TextBite"
+- !private "UIApplication"
+- "UITextView"
+- "StringLiteralType"
+- !private "AVSpeechSynthesisVoice"
+- !private "fatalError"
+- "AVSpeechUtterance"
+- !private "&&"
+- !private "AppDelegate"
+- !private "UnicodeScalarType"
+- !private "!="
+- !private "NSEntityDescription"
+- "UITextField"
+- "NewTextBiteViewController"
+- "AnyObject"
+depends-member:
+- !private ["CSo22AVSpeechSynthesisVoice", "init"]
+- ["CSo19AVSpeechSynthesizer", "init"]
+- !private ["CSo19AVSpeechSynthesizer", "speakUtterance"]
+- ["CSo17AVSpeechUtterance", "init"]
+- !private ["CSo17AVSpeechUtterance", "rate"]
+- !private ["CSo17AVSpeechUtterance", "voice"]
+- !private ["PSs9AnyObject", "AVSpeechSynthesisVoice"]
+- ["PSs9AnyObject", "AVSpeechSynthesizer"]
+- ["PSs9AnyObject", "AVSpeechUtterance"]
+- !private ["PSs9AnyObject", "NSEntityDescription"]
+- !private ["PSs9AnyObject", "UIApplication"]
+- !private ["PSs9AnyObject", "delegate"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "fatalError"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "insertNewObjectForEntityForName"]
+- !private ["PSs9AnyObject", "managedObjectContext"]
+- ["PSs9AnyObject", "myUtterance"]
+- !private ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "nameField"]
+- !private ["PSs9AnyObject", "performSegueWithIdentifier"]
+- ["PSs9AnyObject", "play"]
+- !private ["PSs9AnyObject", "rate"]
+- ["PSs9AnyObject", "save"]
+- ["PSs9AnyObject", "saveTextBite"]
+- !private ["PSs9AnyObject", "sharedApplication"]
+- !private ["PSs9AnyObject", "speakUtterance"]
+- ["PSs9AnyObject", "synth"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "textView"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- !private ["PSs9AnyObject", "voice"]
+- ["PSs9AnyObject", ""]
+- !private ["C4Bite11AppDelegate", "managedObjectContext"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "AVSpeechSynthesisVoice"]
+- ["PSs11CVarArgType", "AVSpeechSynthesizer"]
+- ["PSs11CVarArgType", "AVSpeechUtterance"]
+- !private ["PSs11CVarArgType", "NSEntityDescription"]
+- !private ["PSs11CVarArgType", "UIApplication"]
+- !private ["PSs11CVarArgType", "delegate"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "fatalError"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "insertNewObjectForEntityForName"]
+- !private ["PSs11CVarArgType", "managedObjectContext"]
+- ["PSs11CVarArgType", "myUtterance"]
+- !private ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "nameField"]
+- !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
+- ["PSs11CVarArgType", "play"]
+- !private ["PSs11CVarArgType", "rate"]
+- ["PSs11CVarArgType", "save"]
+- ["PSs11CVarArgType", "saveTextBite"]
+- !private ["PSs11CVarArgType", "sharedApplication"]
+- !private ["PSs11CVarArgType", "speakUtterance"]
+- ["PSs11CVarArgType", "synth"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "textView"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- !private ["PSs11CVarArgType", "voice"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "AVSpeechSynthesisVoice"]
+- ["PSs23CustomStringConvertible", "AVSpeechSynthesizer"]
+- ["PSs23CustomStringConvertible", "AVSpeechUtterance"]
+- !private ["PSs23CustomStringConvertible", "NSEntityDescription"]
+- !private ["PSs23CustomStringConvertible", "UIApplication"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "fatalError"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "insertNewObjectForEntityForName"]
+- !private ["PSs23CustomStringConvertible", "managedObjectContext"]
+- ["PSs23CustomStringConvertible", "myUtterance"]
+- !private ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "nameField"]
+- !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
+- ["PSs23CustomStringConvertible", "play"]
+- !private ["PSs23CustomStringConvertible", "rate"]
+- ["PSs23CustomStringConvertible", "save"]
+- ["PSs23CustomStringConvertible", "saveTextBite"]
+- !private ["PSs23CustomStringConvertible", "sharedApplication"]
+- !private ["PSs23CustomStringConvertible", "speakUtterance"]
+- ["PSs23CustomStringConvertible", "synth"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "textView"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- !private ["PSs23CustomStringConvertible", "voice"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "AVSpeechSynthesisVoice"]
+- ["PSs9Equatable", "AVSpeechSynthesizer"]
+- ["PSs9Equatable", "AVSpeechUtterance"]
+- !private ["PSs9Equatable", "NSEntityDescription"]
+- !private ["PSs9Equatable", "UIApplication"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "delegate"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "fatalError"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "insertNewObjectForEntityForName"]
+- !private ["PSs9Equatable", "managedObjectContext"]
+- ["PSs9Equatable", "myUtterance"]
+- !private ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "nameField"]
+- !private ["PSs9Equatable", "performSegueWithIdentifier"]
+- ["PSs9Equatable", "play"]
+- !private ["PSs9Equatable", "rate"]
+- ["PSs9Equatable", "save"]
+- ["PSs9Equatable", "saveTextBite"]
+- !private ["PSs9Equatable", "sharedApplication"]
+- !private ["PSs9Equatable", "speakUtterance"]
+- ["PSs9Equatable", "synth"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "textView"]
+- ["PSs9Equatable", "viewDidLoad"]
+- !private ["PSs9Equatable", "voice"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs8Hashable", "AVSpeechSynthesisVoice"]
+- ["PSs8Hashable", "AVSpeechSynthesizer"]
+- ["PSs8Hashable", "AVSpeechUtterance"]
+- !private ["PSs8Hashable", "NSEntityDescription"]
+- !private ["PSs8Hashable", "UIApplication"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "delegate"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "fatalError"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "insertNewObjectForEntityForName"]
+- !private ["PSs8Hashable", "managedObjectContext"]
+- ["PSs8Hashable", "myUtterance"]
+- !private ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "nameField"]
+- !private ["PSs8Hashable", "performSegueWithIdentifier"]
+- ["PSs8Hashable", "play"]
+- !private ["PSs8Hashable", "rate"]
+- ["PSs8Hashable", "save"]
+- ["PSs8Hashable", "saveTextBite"]
+- !private ["PSs8Hashable", "sharedApplication"]
+- !private ["PSs8Hashable", "speakUtterance"]
+- ["PSs8Hashable", "synth"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "textView"]
+- ["PSs8Hashable", "viewDidLoad"]
+- !private ["PSs8Hashable", "voice"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "AVSpeechSynthesisVoice"]
+- ["PSo8NSCoding", "AVSpeechSynthesizer"]
+- ["PSo8NSCoding", "AVSpeechUtterance"]
+- !private ["PSo8NSCoding", "NSEntityDescription"]
+- !private ["PSo8NSCoding", "UIApplication"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "fatalError"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "insertNewObjectForEntityForName"]
+- ["PSo8NSCoding", "myUtterance"]
+- ["PSo8NSCoding", "nameField"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- ["PSo8NSCoding", "play"]
+- !private ["PSo8NSCoding", "rate"]
+- ["PSo8NSCoding", "save"]
+- ["PSo8NSCoding", "saveTextBite"]
+- ["PSo8NSCoding", "synth"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "textView"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "voice"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "insertNewObjectForEntityForName"]
+- !private ["PSo9NSCopying", "rate"]
+- !private ["PSo9NSCopying", "voice"]
+- !private ["CSo19NSEntityDescription", "insertNewObjectForEntityForName"]
+- !private ["PSo26NSExtensionRequestHandling", "AVSpeechSynthesisVoice"]
+- ["PSo26NSExtensionRequestHandling", "AVSpeechSynthesizer"]
+- ["PSo26NSExtensionRequestHandling", "AVSpeechUtterance"]
+- !private ["PSo26NSExtensionRequestHandling", "NSEntityDescription"]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "fatalError"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "myUtterance"]
+- ["PSo26NSExtensionRequestHandling", "nameField"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- ["PSo26NSExtensionRequestHandling", "play"]
+- ["PSo26NSExtensionRequestHandling", "save"]
+- ["PSo26NSExtensionRequestHandling", "saveTextBite"]
+- ["PSo26NSExtensionRequestHandling", "synth"]
+- ["PSo26NSExtensionRequestHandling", "textView"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "insertNewObjectForEntityForName"]
+- !private ["PSo9NSLocking", "save"]
+- !private ["CSo15NSManagedObject", "deinit"]
+- !private ["CSo15NSManagedObject", "name"]
+- !private ["CSo15NSManagedObject", "text"]
+- !private ["CSo22NSManagedObjectContext", "save"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "AVSpeechSynthesisVoice"]
+- ["CSo8NSObject", "AVSpeechSynthesizer"]
+- ["CSo8NSObject", "AVSpeechUtterance"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "AppDelegate"]
+- !private ["CSo8NSObject", "NSEntityDescription"]
+- !private ["CSo8NSObject", "TextBite"]
+- !private ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "UITextView"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "insertNewObjectForEntityForName"]
+- !private ["CSo8NSObject", "managedObjectContext"]
+- ["CSo8NSObject", "myUtterance"]
+- !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "nameField"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- ["CSo8NSObject", "play"]
+- !private ["CSo8NSObject", "rate"]
+- ["CSo8NSObject", "save"]
+- ["CSo8NSObject", "saveTextBite"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- !private ["CSo8NSObject", "speakUtterance"]
+- ["CSo8NSObject", "synth"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "textView"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "voice"]
+- !private ["PSo16NSObjectProtocol", "AVSpeechSynthesisVoice"]
+- ["PSo16NSObjectProtocol", "AVSpeechSynthesizer"]
+- ["PSo16NSObjectProtocol", "AVSpeechUtterance"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "insertNewObjectForEntityForName"]
+- !private ["PSo16NSObjectProtocol", "managedObjectContext"]
+- ["PSo16NSObjectProtocol", "myUtterance"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "nameField"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- ["PSo16NSObjectProtocol", "play"]
+- !private ["PSo16NSObjectProtocol", "rate"]
+- ["PSo16NSObjectProtocol", "save"]
+- ["PSo16NSObjectProtocol", "saveTextBite"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "speakUtterance"]
+- ["PSo16NSObjectProtocol", "synth"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "textView"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "voice"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "rate"]
+- !private ["PSo14NSSecureCoding", "voice"]
+- !private ["CSo8NSString", "init"]
+- !private ["C4Bite25NewTextBiteViewController", "AVSpeechSynthesisVoice"]
+- ["C4Bite25NewTextBiteViewController", "AVSpeechSynthesizer"]
+- ["C4Bite25NewTextBiteViewController", "AVSpeechUtterance"]
+- ["C4Bite25NewTextBiteViewController", "AnyObject"]
+- !private ["C4Bite25NewTextBiteViewController", "AppDelegate"]
+- !private ["C4Bite25NewTextBiteViewController", "NSEntityDescription"]
+- !private ["C4Bite25NewTextBiteViewController", "TextBite"]
+- !private ["C4Bite25NewTextBiteViewController", "UIApplication"]
+- ["C4Bite25NewTextBiteViewController", "UITextField"]
+- ["C4Bite25NewTextBiteViewController", "UITextView"]
+- ["C4Bite25NewTextBiteViewController", "deinit"]
+- ["C4Bite25NewTextBiteViewController", "didReceiveMemoryWarning"]
+- !private ["C4Bite25NewTextBiteViewController", "fatalError"]
+- ["C4Bite25NewTextBiteViewController", "init"]
+- ["C4Bite25NewTextBiteViewController", "myUtterance"]
+- ["C4Bite25NewTextBiteViewController", "nameField"]
+- !private ["C4Bite25NewTextBiteViewController", "performSegueWithIdentifier"]
+- ["C4Bite25NewTextBiteViewController", "play"]
+- ["C4Bite25NewTextBiteViewController", "save"]
+- ["C4Bite25NewTextBiteViewController", "saveTextBite"]
+- ["C4Bite25NewTextBiteViewController", "synth"]
+- ["C4Bite25NewTextBiteViewController", "textView"]
+- ["C4Bite25NewTextBiteViewController", "viewDidLoad"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["C4Bite8TextBite", "name"]
+- !private ["C4Bite8TextBite", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "AVSpeechSynthesisVoice"]
+- ["PSo21UIAppearanceContainer", "AVSpeechSynthesizer"]
+- ["PSo21UIAppearanceContainer", "AVSpeechUtterance"]
+- !private ["PSo21UIAppearanceContainer", "NSEntityDescription"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "myUtterance"]
+- ["PSo21UIAppearanceContainer", "nameField"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- ["PSo21UIAppearanceContainer", "play"]
+- ["PSo21UIAppearanceContainer", "save"]
+- ["PSo21UIAppearanceContainer", "saveTextBite"]
+- ["PSo21UIAppearanceContainer", "synth"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "textView"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo13UIApplication", "delegate"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["PSo21UIApplicationDelegate", "managedObjectContext"]
+- !private ["PSo18UIContentContainer", "AVSpeechSynthesisVoice"]
+- ["PSo18UIContentContainer", "AVSpeechSynthesizer"]
+- ["PSo18UIContentContainer", "AVSpeechUtterance"]
+- !private ["PSo18UIContentContainer", "NSEntityDescription"]
+- !private ["PSo18UIContentContainer", "UIApplication"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "fatalError"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "myUtterance"]
+- ["PSo18UIContentContainer", "nameField"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- ["PSo18UIContentContainer", "play"]
+- ["PSo18UIContentContainer", "save"]
+- ["PSo18UIContentContainer", "saveTextBite"]
+- ["PSo18UIContentContainer", "synth"]
+- ["PSo18UIContentContainer", "textView"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "AVSpeechSynthesisVoice"]
+- ["PSo18UIFocusEnvironment", "AVSpeechSynthesizer"]
+- ["PSo18UIFocusEnvironment", "AVSpeechUtterance"]
+- !private ["PSo18UIFocusEnvironment", "NSEntityDescription"]
+- !private ["PSo18UIFocusEnvironment", "UIApplication"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "fatalError"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "myUtterance"]
+- ["PSo18UIFocusEnvironment", "nameField"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UIFocusEnvironment", "play"]
+- ["PSo18UIFocusEnvironment", "save"]
+- ["PSo18UIFocusEnvironment", "saveTextBite"]
+- ["PSo18UIFocusEnvironment", "synth"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "textView"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo11UIResponder", "AVSpeechSynthesisVoice"]
+- ["CSo11UIResponder", "AVSpeechSynthesizer"]
+- ["CSo11UIResponder", "AVSpeechUtterance"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "AppDelegate"]
+- !private ["CSo11UIResponder", "NSEntityDescription"]
+- !private ["CSo11UIResponder", "TextBite"]
+- !private ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "UITextView"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "managedObjectContext"]
+- ["CSo11UIResponder", "myUtterance"]
+- ["CSo11UIResponder", "nameField"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- ["CSo11UIResponder", "play"]
+- ["CSo11UIResponder", "save"]
+- ["CSo11UIResponder", "saveTextBite"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- ["CSo11UIResponder", "synth"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "textView"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo12UIScrollView", "text"]
+- !private ["PSo16UIStateRestoring", "AVSpeechSynthesisVoice"]
+- ["PSo16UIStateRestoring", "AVSpeechSynthesizer"]
+- ["PSo16UIStateRestoring", "AVSpeechUtterance"]
+- !private ["PSo16UIStateRestoring", "NSEntityDescription"]
+- !private ["PSo16UIStateRestoring", "UIApplication"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "fatalError"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "myUtterance"]
+- ["PSo16UIStateRestoring", "nameField"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- ["PSo16UIStateRestoring", "play"]
+- ["PSo16UIStateRestoring", "save"]
+- ["PSo16UIStateRestoring", "saveTextBite"]
+- ["PSo16UIStateRestoring", "synth"]
+- ["PSo16UIStateRestoring", "textView"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["CSo10UITextView", "text"]
+- !private ["PSo18UITraitEnvironment", "AVSpeechSynthesisVoice"]
+- ["PSo18UITraitEnvironment", "AVSpeechSynthesizer"]
+- ["PSo18UITraitEnvironment", "AVSpeechUtterance"]
+- !private ["PSo18UITraitEnvironment", "NSEntityDescription"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "myUtterance"]
+- ["PSo18UITraitEnvironment", "nameField"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UITraitEnvironment", "play"]
+- ["PSo18UITraitEnvironment", "save"]
+- ["PSo18UITraitEnvironment", "saveTextBite"]
+- ["PSo18UITraitEnvironment", "synth"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "textView"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "AVSpeechSynthesisVoice"]
+- ["CSo16UIViewController", "AVSpeechSynthesizer"]
+- ["CSo16UIViewController", "AVSpeechUtterance"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "AppDelegate"]
+- !private ["CSo16UIViewController", "NSEntityDescription"]
+- !private ["CSo16UIViewController", "TextBite"]
+- !private ["CSo16UIViewController", "UIApplication"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "UITextView"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "fatalError"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "myUtterance"]
+- ["CSo16UIViewController", "nameField"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- ["CSo16UIViewController", "play"]
+- ["CSo16UIViewController", "save"]
+- ["CSo16UIViewController", "saveTextBite"]
+- ["CSo16UIViewController", "synth"]
+- ["CSo16UIViewController", "textView"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "text"]
+depends-nominal:
+- !private "CSo22AVSpeechSynthesisVoice"
+- "CSo19AVSpeechSynthesizer"
+- "CSo17AVSpeechUtterance"
+- "PSs9AnyObject"
+- !private "C4Bite11AppDelegate"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "CSo19NSEntityDescription"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo9NSLocking"
+- !private "CSo15NSManagedObject"
+- !private "CSo22NSManagedObjectContext"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "C4Bite25NewTextBiteViewController"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "VSs12StaticString"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "C4Bite8TextBite"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- !private "PSo21UIApplicationDelegate"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+interface-hash: "7013d2d5ba121a75c98ba57fe80b4520"

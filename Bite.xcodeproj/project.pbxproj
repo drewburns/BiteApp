@@ -15,6 +15,16 @@
 		517EED041C4AAF5000AA6C34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517EED021C4AAF5000AA6C34 /* LaunchScreen.storyboard */; };
 		517EED0F1C4AAF5000AA6C34 /* BiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EED0E1C4AAF5000AA6C34 /* BiteTests.swift */; };
 		517EED1A1C4AAF5000AA6C34 /* BiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EED191C4AAF5000AA6C34 /* BiteUITests.swift */; };
+		517EED281C4AAF7F00AA6C34 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517EED271C4AAF7F00AA6C34 /* AVFoundation.framework */; };
+		517EED2D1C4AC7D300AA6C34 /* TextBite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EED291C4AC7D300AA6C34 /* TextBite+CoreDataProperties.swift */; };
+		517EED2E1C4AC7D300AA6C34 /* TextBite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EED2A1C4AC7D300AA6C34 /* TextBite.swift */; };
+		517EED2F1C4AC7D300AA6C34 /* SoundBite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EED2B1C4AC7D300AA6C34 /* SoundBite+CoreDataProperties.swift */; };
+		517EED301C4AC7D300AA6C34 /* SoundBite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EED2C1C4AC7D300AA6C34 /* SoundBite.swift */; };
+		517EED391C4ADE5700AA6C34 /* BitesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EED381C4ADE5700AA6C34 /* BitesTableViewController.swift */; };
+		517EED3B1C4AE6E900AA6C34 /* NewTextBiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EED3A1C4AE6E900AA6C34 /* NewTextBiteViewController.swift */; };
+		517EED5B1C4B434B00AA6C34 /* BiteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EED5A1C4B434B00AA6C34 /* BiteTableViewCell.swift */; };
+		517EED5D1C4B4C2900AA6C34 /* NewSoundBiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517EED5C1C4B4C2900AA6C34 /* NewSoundBiteViewController.swift */; };
+		518E009B1C4D531500F99CF9 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E009A1C4D531500F99CF9 /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		517EED151C4AAF5000AA6C34 /* BiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		517EED191C4AAF5000AA6C34 /* BiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiteUITests.swift; sourceTree = "<group>"; };
 		517EED1B1C4AAF5000AA6C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517EED271C4AAF7F00AA6C34 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		517EED291C4AC7D300AA6C34 /* TextBite+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TextBite+CoreDataProperties.swift"; path = "../TextBite+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		517EED2A1C4AC7D300AA6C34 /* TextBite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextBite.swift; path = ../TextBite.swift; sourceTree = "<group>"; };
+		517EED2B1C4AC7D300AA6C34 /* SoundBite+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SoundBite+CoreDataProperties.swift"; path = "../SoundBite+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		517EED2C1C4AC7D300AA6C34 /* SoundBite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundBite.swift; path = ../SoundBite.swift; sourceTree = "<group>"; };
+		517EED381C4ADE5700AA6C34 /* BitesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitesTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		517EED3A1C4AE6E900AA6C34 /* NewTextBiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTextBiteViewController.swift; sourceTree = "<group>"; };
+		517EED5A1C4B434B00AA6C34 /* BiteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiteTableViewCell.swift; sourceTree = "<group>"; };
+		517EED5C1C4B4C2900AA6C34 /* NewSoundBiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSoundBiteViewController.swift; sourceTree = "<group>"; };
+		518E009A1C4D531500F99CF9 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517EED281C4AAF7F00AA6C34 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +100,7 @@
 		517EECEA1C4AAF5000AA6C34 = {
 			isa = PBXGroup;
 			children = (
+				517EED271C4AAF7F00AA6C34 /* AVFoundation.framework */,
 				517EECF51C4AAF5000AA6C34 /* Bite */,
 				517EED0D1C4AAF5000AA6C34 /* BiteTests */,
 				517EED181C4AAF5000AA6C34 /* BiteUITests */,
@@ -99,10 +121,16 @@
 		517EECF51C4AAF5000AA6C34 /* Bite */ = {
 			isa = PBXGroup;
 			children = (
+				517EED311C4AC7DC00AA6C34 /* Models */,
 				517EECF61C4AAF5000AA6C34 /* AppDelegate.swift */,
+				517EED381C4ADE5700AA6C34 /* BitesTableViewController.swift */,
+				517EED5C1C4B4C2900AA6C34 /* NewSoundBiteViewController.swift */,
 				517EECF81C4AAF5000AA6C34 /* ViewController.swift */,
 				517EECFA1C4AAF5000AA6C34 /* Main.storyboard */,
+				517EED5A1C4B434B00AA6C34 /* BiteTableViewCell.swift */,
+				517EED3A1C4AE6E900AA6C34 /* NewTextBiteViewController.swift */,
 				517EED001C4AAF5000AA6C34 /* Assets.xcassets */,
+				518E009A1C4D531500F99CF9 /* ProgressView.swift */,
 				517EED021C4AAF5000AA6C34 /* LaunchScreen.storyboard */,
 				517EED051C4AAF5000AA6C34 /* Info.plist */,
 				517EECFD1C4AAF5000AA6C34 /* Bite.xcdatamodeld */,
@@ -126,6 +154,17 @@
 				517EED1B1C4AAF5000AA6C34 /* Info.plist */,
 			);
 			path = BiteUITests;
+			sourceTree = "<group>";
+		};
+		517EED311C4AC7DC00AA6C34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				517EED2C1C4AC7D300AA6C34 /* SoundBite.swift */,
+				517EED2B1C4AC7D300AA6C34 /* SoundBite+CoreDataProperties.swift */,
+				517EED2A1C4AC7D300AA6C34 /* TextBite.swift */,
+				517EED291C4AC7D300AA6C34 /* TextBite+CoreDataProperties.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +301,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517EED2D1C4AC7D300AA6C34 /* TextBite+CoreDataProperties.swift in Sources */,
+				517EED3B1C4AE6E900AA6C34 /* NewTextBiteViewController.swift in Sources */,
+				517EED301C4AC7D300AA6C34 /* SoundBite.swift in Sources */,
 				517EECF91C4AAF5000AA6C34 /* ViewController.swift in Sources */,
 				517EECFF1C4AAF5000AA6C34 /* Bite.xcdatamodeld in Sources */,
+				518E009B1C4D531500F99CF9 /* ProgressView.swift in Sources */,
+				517EED2E1C4AC7D300AA6C34 /* TextBite.swift in Sources */,
 				517EECF71C4AAF5000AA6C34 /* AppDelegate.swift in Sources */,
+				517EED5B1C4B434B00AA6C34 /* BiteTableViewCell.swift in Sources */,
+				517EED2F1C4AC7D300AA6C34 /* SoundBite+CoreDataProperties.swift in Sources */,
+				517EED5D1C4B4C2900AA6C34 /* NewSoundBiteViewController.swift in Sources */,
+				517EED391C4ADE5700AA6C34 /* BitesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +539,7 @@
 				517EED201C4AAF5000AA6C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		517EED211C4AAF5000AA6C34 /* Build configuration list for PBXNativeTarget "BiteTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +548,7 @@
 				517EED231C4AAF5000AA6C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		517EED241C4AAF5000AA6C34 /* Build configuration list for PBXNativeTarget "BiteUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +557,7 @@
 				517EED261C4AAF5000AA6C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

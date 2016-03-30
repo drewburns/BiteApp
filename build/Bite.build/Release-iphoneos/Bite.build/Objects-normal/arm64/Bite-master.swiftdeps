@@ -1,0 +1,14 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "77f6793a2bc1c66a0b1e84717264713f"
+build_time: [506375302, 898526000]
+inputs:
+  "/Users/andrewburns/Desktop/Programming/swift/Bite/SoundBite.swift": [506285267, 0]
+  "/Users/andrewburns/Desktop/Programming/swift/Bite/Bite/ViewController.swift": [506287832, 0]
+  "/Users/andrewburns/Desktop/Programming/swift/Bite/Bite/AppDelegate.swift": [506278992, 0]
+  "/Users/andrewburns/Desktop/Programming/swift/Bite/BitesTableViewController.swift": [506366135, 0]
+  "/Users/andrewburns/Desktop/Programming/swift/Bite/TextBite+CoreDataProperties.swift": [506285267, 0]
+  "/Users/andrewburns/Desktop/Programming/swift/Bite/SoundBite+CoreDataProperties.swift": [506285267, 0]
+  "/Users/andrewburns/Desktop/Programming/swift/Bite/TextBite.swift": [506285267, 0]
+  "/Users/andrewburns/Desktop/Programming/swift/Bite/Bite/BiteTableViewCell.swift": [506366150, 0]
+  "/Users/andrewburns/Desktop/Programming/swift/Bite/Bite/NewSoundBiteViewController.swift": [506366201, 0]
+  "/Users/andrewburns/Desktop/Programming/swift/Bite/Bite/NewTextBiteViewController.swift": [506319466, 0]
